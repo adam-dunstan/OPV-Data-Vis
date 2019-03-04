@@ -1,6 +1,6 @@
 #Set working directory to where your test .txt files are for each finger
 #WARNING: DO NOT HAVE REPLICATES OR RETESTS IN THE FOLDER. ONE .txt FILE FOR EACH FINGER, 6 FINGERS PER DEVICE
-setwd("C:/Users/UON/Desktop/TESTdata")
+setwd("working-directory-path")
 
 #Creating variable "my.files" & "my.data" to collate all of the .txt files in the folder
   my.files <- list.files(pattern = ".txt")
