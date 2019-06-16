@@ -10,5 +10,5 @@ setwd("working-directory-path")
   par(mfrow =c(2,2))  
   for (i in 1:length(my.data))
     {
-    plot(my.data[[i]]$U..V.,my.data[[i]]$J..mA.cm2., main = i, xlab = "Volatge (V)", ylab = "Jsc (mA/cm^2)", main = "")
+    plot(my.data[[i]]$U..V.,my.data[[i]]$J..mA.cm2., main = i, xlab = "Volatge (V)", ylab = "Jsc (mA/cm^2)")
     }
